@@ -1,0 +1,1 @@
+function searchAlert() { alert ("The search bar functionality has not yet been implemented.\nWe apologize for the inconvenience."); }

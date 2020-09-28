@@ -1,0 +1,10 @@
+CREATE TABLE teams (
+id SERIAL PRIMARY KEY,
+team_name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE players (
+id SERIAL PRIMARY KEY,
+name VARCHAR(255) NOT NULL,
+position VARCHAR(255)
+);
