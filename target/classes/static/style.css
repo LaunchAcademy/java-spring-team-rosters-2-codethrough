@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=ABeeZee|Open+Sans");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.content {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.inline {
+  display: inline;
+}
+
+.margin-left-2 {
+  margin-left: 2em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.float-center {
+  float: center;
+}
+
+/* NavBar */
+.top-bar-right {
+  margin-top: 0.625rem;
+}
+
+.vr-left {
+  border-left: 1px solid #cacaca;
+}
+
+.vr-right {
+  border-right: 1px solid #cacaca;
+}
+
+.hr-slim {
+  margin: 0.125rem 0;
+}
+
+.site-title {
+  color: #00255e;
+  font-family: 'Tangerine', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px #aaa;
+  transition: color 0.5s ease;
+}
+
+.site-title:hover {
+  color: #0045ac;
+}
+
+.nav-drop {
+  color: #2199e8;
+  padding: 0.5rem 1.125rem;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-drop:hover {
+  color: #1585cf;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 8rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #000000;
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.header-links {
+  padding-top: 0.5em;
+}
+
+/* Footer */
+#footer {
+  position: fixed;
+  padding: 0.0625em 0.625em 0em;
+  bottom: 0;
+  width: 1000px;
+  height: 3.75em;
+  background-color: #e6e6e6;
+}
+
+/* Team/Position index pages */
+.no-list {
+  list-style-type: none;
+}

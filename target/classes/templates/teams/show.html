@@ -1,0 +1,11 @@
+<html xmlns:th="https://www.thymeleaf.org" th:replace="~{fragments/layout :: bodyInclude (~{::#layout})}">
+
+<body>
+<div id="layout">
+  <h1>Olympic Curling League - <span th:text="${team.teamName}">Team Name</span></h1>
+  <dl th:each="player : ${team.players}" class="margin-left-2">
+    <dt th:text="${player.position}" class="inline">Position</dt> - <dd th:text="${player.name}" class="inline">Name</dd>
+  </dl>
+</div>
+</body>
+</html>

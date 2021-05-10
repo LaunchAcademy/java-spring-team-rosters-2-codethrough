@@ -1,0 +1,45 @@
+<div th:fragment="headerInclude">
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="menu">
+      <li><a href="/" class="site-title">Java Team Roster with Spring</a></li>
+        <li class="header-links"><a href="/league" class="vr-left navLink">League</a></li>
+        <li class="header-links vr-left">
+          <div class="dropdown">
+            <a href="/teams" class="nav-drop">Teams</a>
+            <div class="dropdown-content">
+              <a href="/teams/0">Norway</a>
+              <a href="/teams/2">Sweden</a>
+              <a href="/teams/3">Switzerland</a>
+              <hr class="hr-slim" />
+              <a href="/teams/0">South Korea</a>
+              <hr class="hr-slim" />
+              <a href="/teams/4">USA</a>
+            </div>
+          </div>
+        </li>
+        <li class="header-links vr-left">
+          <div class="dropdown">
+            <a href="/positions" class="nav-drop">Positions</a>
+            <div class="dropdown-content">
+              <a href="/positions/Lead">Lead</a>
+              <a href="/positions/Second">Second</a>
+              <a href="/positions/Third">Third</a>
+              <a href="/positions/Fourth">Fourth</a>
+              <hr class="hr-slim" />
+              <a href="/positions/Alternate">Alternate</a>
+              <a href="/positions/Skip">Skip</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><a href="https://spring.io/" class="vr-right margin-right-1 navLink">Spring.io</a></li>
+        <li><input type="search" placeholder="Search"></input></li>
+        <li><button type="button" class="button" onclick="searchAlert()">Search</button></li>
+      </ul>
+    </div>
+  </div>
+</div>
