@@ -2,13 +2,10 @@ package com.launchacademy.teamrosterwithspring.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.NoArgsConstructor;
-import org.springframework.stereotype.Component;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -30,9 +27,5 @@ public class Player {
 
   private String name;
   private String position;
-
-  @ManyToOne
-  @JoinColumn(name="team_id", nullable = false)
-  private Team team;
 }
 
