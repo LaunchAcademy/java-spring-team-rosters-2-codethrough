@@ -25,7 +25,9 @@ public class Player {
   @Column(name="id", nullable=false, unique=true)
   private Integer id;
 
+  @Column(name = "name")
   private String name;
+
+  @Column(name = "position")
   private String position;
 }
-

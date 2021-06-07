@@ -1,7 +1,1 @@
-com\launchacademy\teamrosterwithspring\DemoApplication.class
-com\launchacademy\teamrosterwithspring\repositories\PlayerRepository.class
-com\launchacademy\teamrosterwithspring\models\Player.class
-com\launchacademy\teamrosterwithspring\models\Team.class
-com\launchacademy\teamrosterwithspring\repositories\TeamRepository.class
-com\launchacademy\teamrosterwithspring\seeders\PlayerSeeder.class
-com\launchacademy\teamrosterwithspring\seeders\TeamSeeder.class
+com/launchacademy/teamrosterwithspring/seeders/PlayerSeeder.class
